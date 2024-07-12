@@ -9,8 +9,8 @@
                 text-align: center;
             }
             main{
-                margin-left:500px ;
-                margin-right:500px ;
+                margin-left:400px ;
+                margin-right:400px ;
             }
             form{
                 text-align: centre;
@@ -19,6 +19,40 @@
                 background-color: antiquewhite;
                 padding-left:0cm;
             }
+            .footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            border-top: 1px solid #ccc;
+        }
+        .footer p {
+            margin: 0;
+            color: #666;
+        }
+        .end-of-content {
+            text-align: center;
+            padding: 20px 0;
+            border-top: 1px solid #ccc;
+            margin-top: 40px;
+        }
+        .end-of-content p, .end-of-content a {
+            margin: 0;
+            color: #666;
+            text-decoration: none;
+        }
+        .end-of-content a:hover {
+            text-decoration: underline;
+        }
+        .end-of-content .social-media {
+            margin: 10px 0;
+        }
+        .end-of-content .social-media a {
+            margin: 0 10px;
+        }
         
         </style>
     </head>
@@ -28,7 +62,7 @@
                 <h1> <a href="index.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6YwuowETg8zxZQBTwC3MW_cKq_FkoRu28pAS9fDFfe52iDDf82rlOgEIYf6aZjpYyWFM&usqp=CAU"alt="logo"></a></h1>
             </header>
             <main>
-                <table><tr><th>
+                <table style="width: unset;"><tr><th>
                 <h2><b>Stay in touch!</b></h2>
                 <h3>Subscribe to the following updates and you won't miss a thing.</h3>
                 <form>
@@ -44,4 +78,20 @@
                 </tr>
                 </table>
             </main>
+            <div class="end-of-content">
+                <p>
+                    <a href="/privacy-policy">Privacy Policy</a> |
+                    <a href="/terms-of-service">Terms of Service</a> |
+                    <a href="/contact">Contact Us</a>
+                </p>
+                <div class="social-media">
+                    <a href="https://facebook.com/yourprofile" target="_blank">Facebook</a> |
+                    <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a> |
+                    <a href="https://instagram.com/yourprofile" target="_blank">Instagram</a>
+                </div>
+            </div>
+            
+            <div class="footer">
+                <p>&copy; 2024 Musafir. All rights reserved.</p>
+            </div>
     </body>
